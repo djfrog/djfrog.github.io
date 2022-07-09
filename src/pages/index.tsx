@@ -36,32 +36,6 @@ const Home: NextPage = () => {
           </p>
         </section>
 
-        <section className="p-4 prose lg:prose-2xl">
-          <h2 className="text-center text-accent">Team</h2>
-          <div className="flex flex-col md:flex-row text-center justify-between">
-            <a href="https://twitter.com/kaerusanu" className="decoration no-underline">
-              <div className="p-4 not-prose">
-                <img src="/images/members/kaerusanu.png" className="mx-auto rounded-full w-[150px] hover:ring-accent/50 hover:ring-4" />
-                <h3 className="">kaerusanu</h3>
-                <span className="font-thin text-sm">Founder/CEO</span>
-              </div>
-            </a>
-            <a href="https://twitter.com/mitaku" className="decoration no-underline">
-              <div className="p-4 not-prose">
-                <img src="/images/members/mitaku.png" className="mx-auto rounded-full w-[150px] hover:ring-accent/50 hover:ring-4" />
-                <h3 className="">mitaku</h3>
-                <span className="font-thin text-sm">Co-Founder/CTO</span>
-              </div>
-            </a>
-            <a href="https://twitter.com/rmanzoku" className="decoration no-underline">
-              <div className="p-4 not-prose">
-                <img src="https://placehold.jp/150x150.png" className="mx-auto rounded-full w-[150px] hover:ring-accent/50 hover:ring-4" />
-                <h3 className="">rmanzoku</h3>
-                <span className="font-thin text-sm">CheafTokenomicsOfficer</span>
-              </div>
-            </a>
-          </div>
-        </section>
 
         <section className="p-4 prose lg:prose-2xl">
           <h2 className="text-center text-accent">Company</h2>
@@ -75,6 +49,10 @@ const Home: NextPage = () => {
               <tr>
                 <th className="font-semibold text-right whitespace-pre">設立</th>
                 <td>2022年6月1日</td>
+              </tr>
+              <tr>
+                <th className="font-semibold text-right whitespace-pre">代表者</th>
+                <td>CEO 類地 健太郎</td>
               </tr>
               <tr>
                 <th className="font-semibold text-right whitespace-pre">事業内容</th>
