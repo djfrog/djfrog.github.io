@@ -2,11 +2,14 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 
 const Home: NextPage = () => {
+
+  const description = `double jump.frog株式会社のコーポレートサイトです。ゲームのように楽しく暮らせる世界を目指します。`
+
   return (
     <div className="flex flex-col h-screen justify-between">
       <Head>
         <title>double jump.frog Inc.</title>
-        <meta name="description" content="double jump.frog Inc." />
+        <meta name="description" content={description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
