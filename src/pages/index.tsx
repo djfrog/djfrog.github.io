@@ -11,11 +11,11 @@ const Home: NextPage = () => {
       </Head>
 
       <header className="bg-primary text-white sticky px-2 py-4">
-        <img src="/images/logo.png" className="h-16 mx-auto lg:mx-0" />
+        <img src="/images/logo.png" className="h-16 mx-auto lg:mx-0" alt="logo" />
       </header>
 
       <div className="text-center w-full relative">
-        <img src="/images/hero.jpg" className="object-cover w-full max-h-[60vh]" />
+        <img src="/images/hero.jpg" className="object-cover w-full max-h-[60vh]" alt="hero" />
         <div
           className="bg-white/60 w-full py-2 lg:py-8 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
         >
